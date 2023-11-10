@@ -1,0 +1,130 @@
+body{
+
+    background-color: rgb(25, 3, 57);
+}
+
+
+nav{
+    background-color: black;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.C{
+    font-size:27px;
+    font-weight:bolder;
+    display: flex;
+    align-items: center;
+    
+}
+
+.C img{
+    width:47px;
+    padding: 0 12px;
+
+}
+ nav ul {
+
+    display:flex;
+    list-style-type:none;
+   align-items: center;
+    font-size:24px;
+   
+   
+
+}
+
+ nav ul li{
+    padding:0 12px;
+   
+}
+
+ 
+
+
+.container{
+
+    min-height:70vh;
+}
+.bottom{
+
+    background-color: black;
+    height:120px;
+    color:white;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+   
+  
+   
+}
+
+#progressBar{
+
+    width:75vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top:8px;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.songList{
+
+    color:white;
+  background-color: black;
+  width:70vw;
+  margin:20px auto;
+  height:37vw;
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/a-with-headphones-and-musical-notes-powerpoint-background_b1f044f0bf__960_540.jpg');
+  background-repeat:no-repeat;
+   background-size: cover;
+ 
+  
+  
+
+}
+
+.songItem{
+
+    display: flex;
+    color:black;
+    background-color:white;
+    align-items: center;
+    justify-content:space-between;
+    width:35vw;
+    border-radius:25px;
+    height:34px;
+    margin: 30px 0px;
+
+    font-weight: bolder;
+
+
+}
+
+.songItem img{
+    width:30px;
+    border-radius:7px;
+    margin-left: 4px;
+    
+}
+
+
+.spn {
+   margin-right: 18px;
+}
+ .spn i{
+    cursor:pointer;
+ }
+
+
+
+ .songItem img{
+    border-radius: 25px;
+    height:34px;
+    width:47px;
+ }
+
